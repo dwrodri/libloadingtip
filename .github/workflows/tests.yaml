@@ -2,6 +2,9 @@ name: Toolchain Tests
 on:
   push:
     branch: main
+    paths:
+      - apps/**
+      - src/**
 
 jobs:
   unit-tests-gcc:
