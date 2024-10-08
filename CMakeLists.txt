@@ -17,7 +17,7 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
     include(CTest)
 
     # set standards
-    set(CMAKE_C_STANDARD 17)
+    set(CMAKE_C_STANDARD 11)
 
     # Let's ensure -std=cxx instead of GNU C
     set(CMAKE_C_EXTENSIONS OFF)

@@ -1,4 +1,4 @@
-name: Unit Tests
+name: Toolchain Tests
 on:
   push:
     branch: main
@@ -20,7 +20,7 @@ jobs:
       - name: Run Demo app
         run: cd build/apps && ./demo_app
   unit-tests-clang:
-    name: Unit tests w/ clang 14
+    name: build demo app w/ clang 14
     runs-on: ubuntu-latest
     container: debian:bullseye-slim
     steps:
