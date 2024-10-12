@@ -1,3 +1,9 @@
+#clangd LSP Cache
+.cache/
+
+# CMake User Presets
+CMakeUserPresets.json
+
 # CMake build folder
 build/*
 

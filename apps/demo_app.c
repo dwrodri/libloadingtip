@@ -1,5 +1,3 @@
-#include <stdio.h>
+#include "loadingtip.h"
 
-int main() {
-    printf("This will eventually be a loading tip!");
-}
+int main() { show_demo_tip_stderr(); }

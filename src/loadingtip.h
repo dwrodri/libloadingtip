@@ -1,0 +1,1 @@
+void show_demo_tip_stderr();
